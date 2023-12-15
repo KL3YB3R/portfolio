@@ -10,6 +10,10 @@ export default {
       height: {
         128: "32rem",
       },
+      border: {
+        homebor: "1px solid #982a72",
+        cnti: "#5b73c3",
+      },
     },
   },
   plugins: [],

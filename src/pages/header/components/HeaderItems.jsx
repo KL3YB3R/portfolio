@@ -9,7 +9,7 @@ export const HeaderItems = ({ options }) => {
         <a
           key={option}
           href={`${option.replace(/ /g, "").toLowerCase()}`}
-          className={`text-lg px-5 py-5 option-navigate border-b-4 ${
+          className={`text-md px-5 py-3 option-navigate border-b-2 ${
             option.replace(/ /g, "").toLowerCase() === "aboutme" ? "border-zinc-950" : "border-white"
           }`}
           id="item-link"
